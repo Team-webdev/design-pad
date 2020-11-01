@@ -5,10 +5,11 @@ class DesignPad extends React.Component {
   state = {
     color: "light-grey"
   };
-
+  
   onDragOver = event => {
     event.preventDefault();
   };
+  
 
   onDrop = event => {
     event.preventDefault();
